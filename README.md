@@ -1,1 +1,1 @@
-# bytesberry-logger
+## Write better console logs
