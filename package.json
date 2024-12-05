@@ -1,0 +1,25 @@
+{
+  "name": "@bytesberry/logger",
+  "version": "1.0.1",
+  "description": "write better console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "logger",
+    "console log"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn run build"
+  },
+  "repository": "https://github.com/sailendrachettri/bytesberry-logger.git",
+  "author": "sailendrachettri <sailendra9083@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}
