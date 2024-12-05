@@ -1,9 +1,21 @@
 ## Logger helps you write better console logs
 
+
 ### Also available for yarn
 `yarn add @bytesberry/logger`
 
-### Available Methods
+
+ ## Example code 
+```bash
+import { Log } from '@bytesberry/logger';
+
+Log.error("Some error occured!");
+Log.info("Fetching data...")
+Log.output("Output Array: ", outputArr);
+
+```
+
+## Available Methods
 
 | Method      | Description                                                                 | Example Usage                               |
 |-------------|-----------------------------------------------------------------------------|--------------------------------------------|
